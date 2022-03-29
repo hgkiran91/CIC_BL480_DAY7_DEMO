@@ -1,9 +1,9 @@
 #!/bin/bash
 
-
 fruits[0]="Mangoes"
 fruits[1]="Oranges"
 fruits[2]="Apples"
+fruits[3]="Cherrys"
 
 echo "All elements of array: "${fruits[@]}
 
