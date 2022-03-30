@@ -16,3 +16,8 @@ for ((i=0;i<=${#fruits[@]};i++))
 do
 	echo ${fruits[i]}
 done
+
+
+num=(1 2 3 4 5 6 7)
+echo -e "Elements of num: "${num[@]}
+echo -e "Size of num array: "${#num[@]}
